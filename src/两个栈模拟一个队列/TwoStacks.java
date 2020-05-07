@@ -1,5 +1,6 @@
 package 两个栈模拟一个队列;
 
+import java.util.Scanner;
 import java.util.Stack;
 
 public class TwoStacks {
@@ -17,7 +18,12 @@ public class TwoStacks {
         }
         return cache.pop();
     }
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int count = scanner.nextInt();
+        for (int i = 0; i < count; i++) {
+
+        }
     }
 }
