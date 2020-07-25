@@ -44,21 +44,6 @@ public class Order {
         }
     }
 
-//    private static void preOrder1(Node root){
-//        Stack<Node> stack = new Stack<>();
-//        stack.push(root);
-//        while (!stack.isEmpty()){
-//            Node node = stack.pop();
-//            System.out.println(node.val);
-//            if (node.right != null){
-//                stack.push(node.right);
-//            }
-//            if (node.left != null){
-//                stack.push(node.left);
-//            }
-//        }
-//    }
-
     private static void inOrder(Node root){
         Stack<Node> stack = new Stack<>();
         while (!stack.isEmpty() || root != null){
